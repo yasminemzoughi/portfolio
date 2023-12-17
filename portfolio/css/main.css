@@ -1,0 +1,167 @@
+/* Reset some default styles */
+body, h1, h2, h3, p, ul {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #333;
+  background-color: #ffffff;
+}
+
+/* Header styles */
+.header {
+  background-color: #1d61a1;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.header__title {
+  margin: 0;
+  font-size: 2em;
+}
+
+/* Navigation styles */
+.navigation {
+  background-color: #336699; /* Darker shade of blue */
+  color: #fff;
+  padding: 10px 0;
+}
+
+.navigation__list {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+.navigation__list li {
+  margin-right: 20px;
+}
+
+.navigation__list a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  transition: color 0.3s ease;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navigation__list a:hover {
+  color: #1c1704;
+}
+
+/* Main section styles */
+main {
+  padding: 20px 0;
+}
+
+/* About section styles */
+.about {
+  background-color: #f9f9f9; /* Light gray background */
+  padding: 50px 0;
+  text-align: center;
+}
+
+.about__heading {
+  color: #333;
+}
+
+.about__text {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+}
+
+/* Portfolio section styles */
+.work {
+  background-color: #f9f9f9; /* Light gray background */
+  padding: 50px 0;
+  text-align: center;
+}
+
+.work__heading {
+  color: #333;
+}
+
+.work__projects {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.project {
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  background-color: #c9eef9; /* White background for projects */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Soft box shadow effect */
+}
+
+
+.contact {
+  background-color: #f9f9f9; 
+  padding: 50px 0;
+  text-align: center;
+}
+
+.contact__heading {
+  color: #333;
+}
+/* main.css (add or update styles for the contact section) */
+
+.contact {
+  background-color: #f9f9f9;
+  padding: 50px 0;
+  text-align: center;
+}
+
+.contact__heading {
+  color: #333;
+}
+
+.contact__wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact__visual img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+.contact__form {
+  width: 100%;
+  max-width: 400px;
+}
+
+.contact__form-el {
+  margin-bottom: 15px;
+  padding: 10px;
+}
+
+.submit {
+  background-color: #336699;
+  color: #fff;
+  cursor: pointer;
+}
+
+
+.submit {
+  background-color: #336699; 
+  color: #fff;
+  cursor: pointer;
+}
+
+.footer {
+  background-color: #1d61a1;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}

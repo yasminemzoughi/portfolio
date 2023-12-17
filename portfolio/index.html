@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Yasmine Mzoughi - Portfolio</title>
+  <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+
+  <header class="header">
+    <div class="header__wrapper wrapper--large">
+      <h1 class="header__title">Yasmine Mzoughi</h1>
+    </div>
+  </header>
+
+  <nav class="navigation">
+    <div class="navigation__wrapper wrapper--large">
+      <ul class="navigation__list">
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#work">Portfolio</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+ 
+    <section id="about" class="about">
+      <div class="about__wrapper wrapper--large">
+        <img width="10%" src="./images/my pic.png" style="border-radius: 50%;">
+
+        <h2 class="about__heading title">About Me</h2>
+        <h3 class="about__text">Determined and hardworking IT engineering student with a 🚀 creative mindset.</h3>
+        <p>
+          I'm an engineering student with a profound passion for unraveling the intricacies of science and technology. Beyond my academic pursuits, I'm driven to apply innovative solutions to real-world challenges. I believe in cultivating a mindset that values curiosity, creativity, and a relentless pursuit of excellence in the dynamic field of engineering.
+        </p>
+      </div>
+    </section>
+
+    <section id="work" class="work">
+      <div class="work__wrapper wrapper--large">
+        <h2 class="work__heading title">Portfolio</h2>
+        <div class="work__projects" id="projects">
+          <div class="project">
+            <h3>Blood Donation App</h3>
+            <p>Developed a blood donation application using C and Glade during school projects.</p>
+          </div>
+          
+          <div class="project">
+            <h3>EcoSmart Tunisia NGO</h3>
+            <p>Founded and managed an NGO called EcoSmart Tunisia, focusing on responsible consumption and production.</p>
+          </div>
+          
+          <div class="project">
+            <h3>Monte Charge with PIC 16F877</h3>
+            <p>Designed and implemented a Monte Charge (elevator) system using PIC 16F877 microcontroller.</p>
+          </div>
+          
+          <div class="project">
+            <h3>Web Development</h3>
+            <p>Proficient in HTML, CSS, and JavaScript for creating dynamic and responsive web applications.</p>
+          </div>
+          
+          <div class="project">
+            <h3>Linguistic Skills</h3>
+            <p>Fluent in both English and French, enabling effective communication and collaboration.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact">
+      <div class="contact__wrapper wrapper--large">
+        <h2 class="contact__heading title">Contact Me</h2>
+        <div class="contact__visual"></div>
+        <form id="contactForm" class="contact__form">
+          <input class="name"  name="name" type="text" placeholder="Your Name" >
+          <input class="email" name="email" type="email" placeholder="Your Email">
+          <textarea class="text" name="text" ></textarea>
+          <button class="submit" type="button" onclick="submitForm()">Send</button>
+        </form>
+      </div>
+    </section>
+
+  </body>
+  <footer class="footer">
+    <div class="footer__wrapper wrapper--large">
+      <p class="footer__copyright no-margin">&copy; 2023 - Yasmine Mzoughi</p>
+    </div>
+  </footer>
+  <script src="./js/functions-min.js"></script>
+
+</html>
